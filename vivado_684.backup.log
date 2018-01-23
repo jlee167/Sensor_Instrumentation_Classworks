@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Oct 18 12:31:52 2017
+# Process ID: 684
+# Current directory: E:/lab4_pt01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8164 E:\lab4_pt01\lab4_pt01.xpr
+# Log file: E:/lab4_pt01/vivado.log
+# Journal file: E:/lab4_pt01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/lab4_pt01/lab4_pt01.xpr
+INFO: [Project 1-313] Project file moved from 'D:/lab4_pt01' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Oct 18 12:33:22 2017] Launched synth_1...
+Run output will be captured here: E:/lab4_pt01/lab4_pt01.runs/synth_1/runme.log
+[Wed Oct 18 12:33:22 2017] Launched impl_1...
+Run output will be captured here: E:/lab4_pt01/lab4_pt01.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Oct 18 12:40:11 2017] Launched synth_1...
+Run output will be captured here: E:/lab4_pt01/lab4_pt01.runs/synth_1/runme.log
+[Wed Oct 18 12:40:11 2017] Launched impl_1...
+Run output will be captured here: E:/lab4_pt01/lab4_pt01.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 18 13:41:22 2017...

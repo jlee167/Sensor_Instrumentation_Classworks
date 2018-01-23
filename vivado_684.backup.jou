@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Oct 18 12:31:52 2017
+# Process ID: 684
+# Current directory: E:/lab4_pt01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8164 E:\lab4_pt01\lab4_pt01.xpr
+# Log file: E:/lab4_pt01/vivado.log
+# Journal file: E:/lab4_pt01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/lab4_pt01/lab4_pt01.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Oct 30 21:23:09 2017
+# Process ID: 12308
+# Current directory: G:/lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8544 G:\lab7\lab4_pt01.xpr
+# Log file: G:/lab7/vivado.log
+# Journal file: G:/lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/lab7/lab4_pt01.xpr
+INFO: [Project 1-313] Project file moved from 'G:/lab4_pt01' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 826.391 ; gain = 74.234
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run clkDivCustom24bit_synth_1
+reset_run mux4to1_withAddr_synth_1
+reset_run concat_1to4_withAddr_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Oct 30 22:53:07 2017] Launched clkDivCustom24bit_synth_1, mux4to1_withAddr_synth_1, concat_1to4_withAddr_synth_1, synth_1...
+Run output will be captured here:
+clkDivCustom24bit_synth_1: G:/lab7/lab4_pt01.runs/clkDivCustom24bit_synth_1/runme.log
+mux4to1_withAddr_synth_1: G:/lab7/lab4_pt01.runs/mux4to1_withAddr_synth_1/runme.log
+concat_1to4_withAddr_synth_1: G:/lab7/lab4_pt01.runs/concat_1to4_withAddr_synth_1/runme.log
+synth_1: G:/lab7/lab4_pt01.runs/synth_1/runme.log
+[Mon Oct 30 22:53:07 2017] Launched impl_1...
+Run output will be captured here: G:/lab7/lab4_pt01.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 869.969 ; gain = 11.496
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Oct 30 23:07:37 2017] Launched synth_1...
+Run output will be captured here: G:/lab7/lab4_pt01.runs/synth_1/runme.log
+[Mon Oct 30 23:07:37 2017] Launched impl_1...
+Run output will be captured here: G:/lab7/lab4_pt01.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 30 23:15:18 2017...

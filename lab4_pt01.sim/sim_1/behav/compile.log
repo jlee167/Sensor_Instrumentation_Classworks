@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_pt01/lab4_pt01.srcs/sources_1/new/mux4to1_withAddr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4to1_withAddr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_pt01/lab4_pt01.srcs/sources_1/new/i2cModule/i2c_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_pt01/lab4_pt01.srcs/sources_1/new/i2cModule/i2c_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_pt01/lab4_pt01.srcs/sim_1/new/lab5_i2cWrite_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5_i2cWrite_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/lab4_pt01/lab4_pt01.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

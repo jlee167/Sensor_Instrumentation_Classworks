@@ -1,0 +1,17 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto fa3baf94a7ae4208b2d029e89304ecb5 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab5_i2cWrite_tb_behav xil_defaultlib.lab5_i2cWrite_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 7 differs from formal bit length 8 for port deviceAddr [D:/lab4_pt01/lab4_pt01.srcs/sim_1/new/lab5_i2cWrite_tb.v:68]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port enable [D:/lab4_pt01/lab4_pt01.srcs/sim_1/new/lab5_i2cWrite_tb.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.i2c_core
+Compiling module xil_defaultlib.i2c_driver
+Compiling module xil_defaultlib.mux4to1_withAddr
+Compiling module xil_defaultlib.lab5_i2cWrite_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab5_i2cWrite_tb_behav
